@@ -4,7 +4,7 @@ Windows 10 and up
 
 
 # Pre-built package usage
-- Pre-built archive can be obtained at https://drive.google.com/file/d/1pJCRs6w1FSEndvmn1AvsNMEOSzYvrIht/view?usp=drive_link  
+- Pre-built archive can be downloaded from the Release section (or here : https://github.com/Wayhlan/simpleTranscriber/releases/download/v100-alpha/simpleTranscriber_v100_alpha.rar)
 - Unzip the .rar file anywhere  
 - Launch the .exe  
 - Use the 'Browse' buttons to specify input audio file (.wav, .mp3 extension tested, could work with others)  
