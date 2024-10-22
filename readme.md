@@ -1,5 +1,5 @@
 # Requirements
-Windows 10 an up  
+Windows 10 and up  
 4 Go RAM minimum
 
 
