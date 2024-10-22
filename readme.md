@@ -2,9 +2,6 @@
 Windows 10 an up  
 4 Go RAM minimum
 
-# Credits
-Based on the OpenAI developped Whisper model (https://github.com/openai/whisper)  
-Currently using an extension of it : whisper-timestamped (https://github.com/linto-ai/whisper-timestamped), for this project's purposes, the original Whisper model should be sufficient (TODO).
 
 # Pre-built package usage
 - Pre-built archive can be obtained at https://drive.google.com/file/d/1pJCRs6w1FSEndvmn1AvsNMEOSzYvrIht/view?usp=drive_link  
@@ -12,7 +9,6 @@ Currently using an extension of it : whisper-timestamped (https://github.com/lin
 - Launch the .exe  
 - Use the 'Browse' buttons to specify input audio file (.wav, .mp3 extension tested, could work with others)  
 - Optionnaly choose an output directory (will be created if it doesn't exist)
-
 
 
 ### Python script usage
@@ -52,3 +48,8 @@ Both 'models/' and 'libs/' directories need to be moved outside of the '_interna
     ├── _internal/  
     ├── libs/models/  
     └── exeFile.exe  
+
+
+# Credits
+Based on the OpenAI developped Whisper model (https://github.com/openai/whisper)  
+Currently using an extension of it : whisper-timestamped (https://github.com/linto-ai/whisper-timestamped), for this project's purposes, the original Whisper model should be sufficient (TODO).
