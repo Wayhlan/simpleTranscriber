@@ -103,6 +103,7 @@ def transcribe_from_file(file_path, output_folder="", language="french", segment
         print(f"Transcribing segment {len(transcription_segments)}")
         audio = whisper.load_audio(segment)
         transcription_pt = transcribe_segment(audio, language)
+        transcription_segments.append(transcription_pt)
         if transcription_pt:
             for segment in transcription_pt['segments']:
                 print(segment['text'])
